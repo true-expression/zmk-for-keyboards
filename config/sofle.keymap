@@ -163,7 +163,7 @@
 
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2           &bt BT_SEL 3  &bt BT_SEL 4                        &none  &none              &none             &none         &none  &sys_reset
-&none       &none                 &kp LG(LC(LS(UP)))    &none                  &none         &none                               &none  &none              &none             &none         &none  &none
+&none       &kt LC(LEFT_ARROW)    &kp LG(LC(LS(UP)))    &kt LC(RIGHT_ARROW)    &none         &none                               &none  &none              &none             &none         &none  &none
 &none       &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(DOWN)))  &kp LS(LC(LG(RIGHT)))  &none         &none                               &none  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOL_UP  &none  &none
 &none       &none                 &none                 &none                  &none         &none         &none    &bootloader  &none  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT    &none  &none
                                   &none                 &none                  &none         &none         &none    &none        &none  &none              &none             &none
